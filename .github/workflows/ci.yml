@@ -1,0 +1,23 @@
+name: CI Huginn
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      - name: Verificar sintaxe
+        run: |
+          python -m py_compile db.py mitre.py investigator.py reporter.py app.py
+          python -m py_compile sources/__init__.py sources/ip.py sources/domain.py sources/hash.py
+          echo "✅ Sintaxe válida em todos os arquivos"
