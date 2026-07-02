@@ -100,8 +100,8 @@ python app.py
 
 Este projeto faz parte de uma trilha de SOC tooling:
 
-- [**Sentinela SOC**]([https://github.com/SEU_USUARIO/sentinela-soc](https://github.com/LucasFalavinhaFerreira/sentinela-soc)) — Pipeline de Threat Intelligence: coleta 7 feeds públicos de IPs maliciosos, enriquece via AbuseIPDB, persiste em Postgres e alerta via Slack. Automação via GitHub Actions (cron 6h).
-- [**Argus**]([https://github.com/SEU_USUARIO/argus](https://github.com/LucasFalavinhaFerreira/Argus)) — Verificador de domínios e URLs: consulta URLhaus, OpenPhish e VirusTotal, com monitoramento contínuo e alertas no Slack.
+- [**Sentinela SOC**](https://github.com/LucasFalavinhaFerreira/sentinela-soc) — Pipeline de Threat Intelligence: coleta 7 feeds públicos de IPs maliciosos, enriquece via AbuseIPDB, persiste em Postgres e alerta via Slack. Automação via GitHub Actions (cron 6h).
+- [**Argus**](https://github.com/LucasFalavinhaFerreira/Argus) — Verificador de domínios e URLs: consulta URLhaus, OpenPhish e VirusTotal, com monitoramento contínuo e alertas no Slack.
 - **Huginn** ← você está aqui
 
 ---
