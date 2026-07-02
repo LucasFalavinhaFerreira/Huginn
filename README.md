@@ -112,4 +112,4 @@ Este projeto usa exclusivamente APIs e feeds públicos de Threat Intelligence pa
 
 ---
 
-*Desenvolvido por [Lucas Falavinha Ferreira]([https://linkedin.com/in/SEU_PERFIL](https://github.com/LucasFalavinhaFerreira))*
+*Desenvolvido por [Lucas Falavinha Ferreira](https://github.com/LucasFalavinhaFerreira)*
